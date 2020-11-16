@@ -1,0 +1,24 @@
+{
+  "name": "goit-js-hw-10-food-service",
+  "version": "1.0.0",
+  "description": "npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install <pkg>",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiudmilaBoiko/goit-js-hw-10-food-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiudmilaBoiko/goit-js-hw-10-food-service/issues"
+  },
+  "homepage": "https://github.com/LiudmilaBoiko/goit-js-hw-10-food-service#readme",
+  "devDependencies": {
+    "parcel-plugin-handlebars-precompile": "^1.0.2"
+  }
+}
