@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "npm install <pkg>",
-    
-    "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/",
+    "start": "node index.js",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -18,7 +18,6 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LiudmilaBoiko/goit-js-hw-10-food-service/issues"
   },
   "homepage": "https://github.com/LiudmilaBoiko/goit-js-hw-10-food-service/",
   "devDependencies": {
