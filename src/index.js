@@ -2,7 +2,7 @@ import menuCardTpl from '../src/templates/menu-card.hbs';
 import menuCards from './menu.json';
 
 
-// переменные
+// переменные все
 const menuCardsListRef = document.querySelector(".js-menu");
 const switchRef = document.querySelector("#theme-switch-toggle");
 const bodyRef = document.querySelector("body");
